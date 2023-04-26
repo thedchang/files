@@ -1,4 +1,4 @@
-extract hex:
+# extract hex:
 select#
 shift+command+L
 shift+right arrow 6 times
@@ -6,10 +6,10 @@ copy
 select all
 paste
 ---
-sort:
+* sort:
 Select the code you wish to sort in Visual Studio Code. Then hit the key combination Ctrl+P and type the greater than sign ( > ). Next type sort and choose Sort Lines Ascending or choose the Descending option.
 ---
-remove duplicate:
+- remove duplicate:
 Control+F
 
 Toggle "Replace mode"
@@ -22,7 +22,7 @@ In the "replace with" field, type $1
 
 Click the Replace All button ("Replace All").
 ---
-insert:
+# insert:
 Insert Multiple Cursors at the Start of Every Line with VSCode
 Press CTRL + A to select all of the text.
 Press SHIFT + ALT + I to insert multiple cursors at the end of each line.
@@ -31,3 +31,5 @@ Press Home twice to jump to the start of every line.
 insert at the very front: ":hover{"
 insert at the front of each line: "color:"
 insert at the very back: "}"
+---
+- command+/ to comment
