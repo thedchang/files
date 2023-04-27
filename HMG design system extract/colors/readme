@@ -6,6 +6,15 @@ copy
 select all
 paste
 ---
+- unify format:
+abc->aabbcc
+find:([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])
+replace:$1$1$2$2$3$3
+
+aabbcc->abc
+find:([0-9a-f])\1([0-9a-f])\2([0-9a-f])\3
+replace:$1$2$3
+---
 * sort:
 Select the code you wish to sort in Visual Studio Code. Then hit the key combination Ctrl+P and type the greater than sign ( > ). Next type sort and choose Sort Lines Ascending or choose the Descending option.
 ---
