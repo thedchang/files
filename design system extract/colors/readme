@@ -10,7 +10,7 @@ paste
 Select the code you wish to sort in Visual Studio Code. Then hit the key combination Ctrl+P and type the greater than sign ( > ). Next type sort and choose Sort Lines Ascending or choose the Descending option.
 ---
 - remove duplicate:
-Control+F
+command+F
 
 Toggle "Replace mode"
 
