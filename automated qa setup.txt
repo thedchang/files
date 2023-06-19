@@ -1,0 +1,10 @@
+Automated QA Setup
+Download Python3
+Download vscode robot and robotcorp extensions
+pip3 install framework and library
+create .robot file with https://marketplace.visualstudio.com/items?itemName=robocorp.robocorp-code
+copy paste code and files
+edit robot.yaml, conda.yaml, vars.py, lib.resource to match local destination folder
+extent library for report in browser
+transfer xpath: look for parent class, examine unique identifier, could be class or href //div[@class=“sc-kHOZwM dkwsfM” and contains(text(),“Fleet 7")]
+how to find if there is other element sharing the same class:
